@@ -1,3 +1,10 @@
+Steps to Create EXT JS Application : 
+1. Download Sencha Cmd (Here used 6.2.2)
+2. Download Extjs zip file (EXT SDK) //extract zip into C:\Users\user_name\Documents\ext-6.2.0
+3. Run command in Cmd prompt : sencha -sdk C:\Users\user_name\Documents\ext-6.2.0  generate app -classic TutorialApp ./TutorialApp
+4. Go to Application location and cmd sencha app watch
+5. jetty Server Will start at 1841, start by clicking : http://localhost:1841/
+
 # TutorialApp
 
 This folder is primarily a container for the top-level pieces of the application.
